@@ -19,7 +19,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+\documentclass[a4paper, 10pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
 
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage{graphicx} % Required for including pictures
@@ -27,8 +27,9 @@
 
 \usepackage{mathpazo} % Use the Palatino font
 \usepackage[T1]{fontenc} % Required for accented characters
-\linespread{1.0} % Change line spacing here, Palatino benefits from a slight increase by default
+\linespread{1.5} % Change line spacing here, Palatino benefits from a slight increase by default
 \usepackage{csquotes}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2.75cm,right=2.75cm,marginparwidth=1.75cm]{geometry}
 \makeatletter
 \renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
 \renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
@@ -37,12 +38,12 @@
 \begin{center} % Right align
 {\LARGE\@title} % Increase the font size of the title
 
-\vspace{15pt} % Some vertical space between the title and author name
+\vspace{10pt} % Some vertical space between the title and author name
 
 {\large\@author} % Author name
 \\\@date % Date
 
-\vspace{12pt} % Some vertical space between the author block and abstract
+\vspace{10pt} % Some vertical space between the author block and abstract
 \end{center}
 }
 
@@ -73,51 +74,51 @@
 %	ESSAY BODY
 %----------------------------------------------------------------------------------------
 
-The integration of immigrants has recently become a central concern in the public debate, especially in countries that experienced massive flows of immigrants and refugees (Dustmann, Frattini and Lanzara, 2011). In the aftermath of the financial crisis in 2009, Germany has also experienced a surge of immigration, on average, annual net--flows of about 300,000 persons, mostly from new member states of the EU (Dustmann, Frattini, and Lanzara, 2012). Recent analyses in other countries indicate that immigrants have not fared well in the labor market of the host countries (Dustmann and Fabbri, 2003). They concentrate mainly on occupations characterized by low wages, high unemployment risks and demanding limited language proficiency (Bruecker and Jahn, 2011).
+The integration of immigrants has recently become a central concern in the public debate, especially in countries that experienced massive flows of immigrants and refugees (Dustmann, Frattini and Lanzara, 2011). Recent analyses indicate that immigrants have not fared well in the labor market of the host countries (Dustmann and Fabbri, 2003). They concentrate mainly on occupations characterized by low wages, high unemployment risks and demanding limited language proficiency (Bruecker and Jahn, 2011). 
 
-My dissertation contributes to this strand of literature by answering why this should also be the case for immigrants in Germany. In particular, I focus on the human capital formation and transferability from their home countries to Germany. The three articles in this dissertation provide several novel insights. First, the research highlights the importance of the quality of schooling in the source countries in explaining the gap along the wage distribution between immigrants studying in Germany and immigrants studying abroad. Second, it shows that German language skills upon arrival play a crucial role in early job search and contemporary labor market successes of immigrants. Third, it provides a counter example to the career mobility theory, in which immigrants who accepted an overqualified job as a stepping stone are actually trapped themselves in that situation. Even when they have accumulated more relevant labor market experience, they still cannot find a better--matched job.
+In the aftermath of the financial crisis in 2009, Germany has experienced a surge of immigration, on average, annual net--flows of about 300,000 persons, mostly from new member states of the EU (Federal Office for Migration and Refugees, 2016). Within this context, my dissertation investigates the labor market integration of immigrants in Germany. In particular, I focus on the human capital formation and transferability from their home countries to Germany. The three articles in this dissertation provide several novel insights. First, the research highlights the importance of the quality of schooling in the source countries in explaining the gap along the wage distribution between immigrants studying in Germany and immigrants studying abroad. Second, it shows that German language skills upon arrival play a crucial role in early job search and contemporary labor market successes of immigrants. Third, it provides a counter example to the career mobility theory, in which immigrants who accepted an overqualified job as a stepping stone are actually trapped themselves in that situation. Even when they have accumulated more relevant labor market experience, they still cannot find a better--matched job.
 
 In the following sections, I will introduce briefly these three papers, and highlight their policy relevance.
 
-\vspace{15pt}
+\vspace{10pt}
 
 \textbf{Paper 1}: The effects of school quality on the wage distribution of immigrants in Germany \textit{ (co--author with Ehsan Vallisadeh)}
 
-\vspace{15pt}
+\vspace{10pt}
 
 A critical determinant of the integration process and the performance of immigrants in the host country are barriers to transferability and utilization of human capital and educational experience that immigrants obtained abroad, in the host country (Chiswick and Miller, 2007). Indeed, the empirical evidence has highlighted that a substantial part of the wage gap between natives and immigrants is determined by the human capital earned in source countries (Friedberg, 2000).
 
-One crucial assumption in the existing studies is that returns to foreign schooling are homogenous across the post--migration wage distribution of immigrants (Betts and Lofstrom, 2000; Bratsberg and Ragan, 2002; Chiswick and Miller, 2008; Fortin, Lemieux and Torres, 2014; Li and Sweetman, 2013; Sweetman, 2004). In this paper, we use a unique dataset on newly arrived immigrants to Germany, the IAB--SOEP Migration Sample, to test empirically the nature of returns to foreign education in Germany. Particularly, two key questions at the core of our analysis are: (1) How does school quality of immigrants' source country affect the returns to foreign education? (2) How is the impact of school quality on the returns to foreign education over immigrants earning distribution? In doing so, this paper contributes to the existing literature by using a rich longitudinal dataset that provides detail information on pre-- and post--migration education and labor market experiences of immigrants.
+One crucial assumption in the existing studies is that returns to foreign schooling are homogenous across the post--migration wage distribution of immigrants (Bratsberg and Ragan, 2002; Chiswick and Miller, 2008; Fortin, Lemieux and Torres, 2014). In this paper, we use a unique dataset on newly arrived immigrants to Germany, the IAB--SOEP Migration Sample, to test empirically the nature of returns to foreign education in Germany. Particularly, two key questions at the core of our analysis are: (1) How does school quality of immigrants' source countries affect the returns to foreign education? (2) How is the impact of school quality on the returns to foreign education over immigrants earning distribution? In doing so, this paper contributes to the existing literature by using a rich longitudinal dataset that provides detail information on pre-- and post--migration education and labor market experiences of immigrants.
 
 We propose an empirical strategy that accounts for several important features. First, we adjust the years of education of immigrants by the quality of schooling in their home countries using the Hanushek and Kimko (2000) school quality index. Second, we use an IV--strategy to account for potential unobserved variable bias. Using the IAB--Brain--Drain dataset, we instrument the quality--adjusted years of schooling by the emigration rate of high--skilled workers from the country of origin to OECD countries. The idea behind this approach is in the spirit of the \textit{''brain-gain''} theory: emigration of high--skilled and well--educated workers from developing countries induces a positive externality effect (e.g. on the human capital formation and productivity) on stayers (Beine, Docquier and Rapoport, 2008).
 
 Our empirical findings provide a novel insight. The effect of source--country school quality has a non--monotonic, inverted U--shaped relationship over immigrants' earnings distribution. Quality--adjusted returns to foreign education are highest in the middle and lower at the bottom and the top of of the earnings distribution. This finding complements the existing evidence by highlighting important implications regarding international transferability of human capital.
 
-\vspace{15pt}
+\vspace{10pt}
 
 \textbf{Paper 2}: Pre-migration language skills and labor market performance of immigrants in Germany
 
-\vspace{15pt}
+\vspace{10pt}
 
-Language skills are important for successful integration because of several reasons. First, proficiency in a language is one critical component of an individual's human capital profile (Isphording and Otten, 2014). The mastery of the national language does not only serve as a necessary condition to transfer the human capital from home countries to the labor market in host countries, but is also an indicator of successful integration in the new society through active participation in everyday and civic activities (Oers et al., 2010; Holland, 2010). Second, language skills upon arrival facilitate early job search, consumption activities and the establishment of social networks (Chiswick and Miller, 2005). Third, pre--migration language proficiency, in particular, shows a readily observable capability and the willingness to enter the labor market, which enables immigrants to become economically independent (Pochon--Berger and Lenz, 2014). Immigrants who master the national language upon arrival could immediately find better jobs and obtain an initial advantage which puts them well ahead of other immigrants who start to learn the language after migration.
+Language skills are important for successful integration because of several reasons. First, proficiency in a language is one critical component of an individual's human capital profile which serves as a necessary condition to transfer the human capital from home countries to the labor market in host countries (Isphording and Otten, 2014). Second, language skills upon arrival facilitate early job search, consumption activities and the establishment of social networks (Chiswick and Miller, 2005). Third, pre--migration language proficiency, in particular, shows a readily observable capability and the willingness to enter the labor market, which enables immigrants to become economically independent (Pochon--Berger and Lenz, 2014). Immigrants who master the national language upon arrival could immediately find better jobs and obtain an initial advantage which puts them well ahead of other immigrants who start to learn the language after migration.
 
-In this paper, I propose a mechanism through which the language skills upon arrival could have a lasting impact on contemporary labor market performance of immigrants in Germany. In particular, pre-migration language skills play an important role in determining a preferred job search channel of immigrants. This job search channel, in turn, explains their current labor market successes. I find that better pre-migration language skills decrease the probability of finding jobs via informal networks while improving current earnings and job satisfaction. More importantly, conditional on pre-migration language skills, immigrants finding jobs via informal networks tend to have lower earnings and job satisfaction.
+This study investigates the impact of pre-migration language skills on current labor market performance of immigrants in Germany. In doing so, I decompose the total impact of pre-migration language skills into direct impact on preferred job search channels upon arrivals and indirect impact on subsequent labor market success. Effectively, I combine and contribute to two strands of the literature that address the labor market integration of immigrants: (1) the job search behavior of immigrants and (2) the effects of different job search channels on labor market performance. 
 
-This research contributes to the existing literature in several ways. First, instead of investigating the effects of current language proficiency on labor market outcomes which has been overwhelmed in the literature (Yao and van Ours, 2015; Isphording and Otten, 2014; Chiswick and Miller, 2011; Dustmann and Fabbri, 2003), I focus on exploring the roles of the pre--migration language skills on the contemporary labor market performance. Second, as we still know very little about the job search behavior of immigrants, I investigate the channels through which immigrants found their first job immediately after migrated to Germany. Third, I use a novel dataset on linguistic distance between German and the respective language of an immigrant from the \textit{Automatic Similarity Judgement Program (ASJP)} as an instrumental variable in the 2SLS model, thus, overcome the endogeneity of self--assessed language skills.
+This research contributes to the existing literature in several ways. First and foremost, I explore the roles of the pre--migration language skills on the contemporary labor market performance instead of investigating the current language proficiency which has been overwhelmed in the literature (Yao and van Ours, 2015; Isphording and Otten, 2014; Chiswick and Miller, 2011; Dustmann and Fabbri, 2003). In this way, we have insights on the human capital formation in source countries, as well as the human capital transferability in the destination country. Second, I propose a potential mechanism through which pre-migration language proficiency has an impact on contemporary labor market outcomes, that is through its impact on early job search. This mechanism is relatively new in the literature because of the limited information about immigrants' pre-migration language skills.  Third, using German context where there have been heated public debates on language learning and language requirements for immigrants (Moellering, 2010), this paper also examines and justifies the rationales of using a defined language requirement as a hurdle to obtain entry visas for immigrants. 
 
-\vspace{15pt}
+\vspace{10pt}
 
 \textbf{Paper 3}: The state dependence of overeducation--Evidence from immigrants in Germany \textit{(co--author with Silke Anger)}
 
-\vspace{15pt}
+\vspace{10pt}
 
 Immigrants generally do not fair well in the labor market of host countries, in particular, their potential human capital is undervalued and underutilized due to the so--called overeducation phenomenon. We extend the immigrant educational mismatch literature by analyzing the state dependence in overeducation among natives, first and second generation immigrants using the German Socio--Economic Panel. Our purpose is to investigate whether accepting an overeducated job in the beginning of one's career could be a stepping stone to find a better--matched job at the later stage. We address the unobserved individual heterogeneities by using a state--dependence dynamic system. In particular, we model explicitly the unobserved individual characteristics as a function of the initial conditions following Wooldridge (2005) and check the robustness of the models with Mundlak correction. We find that overeducation is mainly state dependent for all three groups of observations and job change is not an effective strategy to reduce overeducation risk. More importantly, the scar effect of overeducation in the first job is the strongest and long--lasting for the first generation immigrants, which is contrary to the prediction of the career mobility theory. We conclude that an overeducated job at the beginning of one's career does not serve as a stepping--stone in finding a better--matched job at the later phase. Immigrants should, therefore, spend more time to intensively search for an adequately--matched job when they first enter the labor market of the host country.
 
-\vspace{15pt}
+\vspace{10pt}
 
 \textbf{Conclusion}
 
-\vspace{15pt}
+\vspace{10pt}
 
 Germany has a long tradition of immigration among European countries, but unlike the United States, Australia and Canada, policy makers in Germany are not well--prepared for the integration of the existing population of immigrants (Dustmann, Frattini and Lanzara, 2012). The overall German immigrants predominantly come from population with poor qualifications (Bruecker, 2013), and their human capital formation before migration have a large influence on their endowment of skills, knowledge and capabilities. Therefore, a research on the quality of schooling in the home countries, pre-migration language skills and scar effects of overeducation on labor market outcomes of immigrants in Germany is highly relevant for policy makers in constructing a long-term integration program. This program should take into consideration the particular needs of different groups of immigrants with their specific difficulties in transfering human capital to the host country, as well as to provide further training with the aims to improve their labor market perspectives.
 
