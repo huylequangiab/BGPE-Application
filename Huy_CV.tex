@@ -1,33 +1,6 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% NOTE: If you find that it says                                     %%
-%%                                                                    %%
-%%                           1 of ??                                  %%
-%%                                                                    %%
-%% at the bottom of your first page, this means that the AUX file     %%
-%% was not available when you ran LaTeX on this source. Simply RERUN  %%
-%% LaTeX to get the ``??'' replaced with the number of the last page  %%
-%% of the document. The AUX file will be generated on the first run   %%
-%% of LaTeX and used on the second run to fill in all of the          %%
-%% references.                                                        %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Don't like 10pt? Try 11pt or 12pt
 \documentclass[10pt]{article}
 
-% The automated optical recognition software used to digitize resume
-% information works best with fonts that do not have serifs. This
-% command uses a sans serif font throughout. Uncomment both lines (or at
-% least the second) to restore a Roman font (i.e., a font with serifs).
-%\usepackage{times}
-%\renewcommand{\familydefault}{\sfdefault}
-
-% This is a helpful package that puts math inside length specifications
 \usepackage{calc}
 \usepackage{comment}
 
@@ -54,31 +27,7 @@
 % Layout: Puts the section titles on left side of page
 \reversemarginpar
 
-%
-%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
-%
-% The next \usepackage line changes the layout for CV style section
-% headings as marginal notes. It also sets up the paper size as either
-% letter or A4. By default, letter was used. If A4 paper is desired,
-% comment out the letterpaper lines and uncomment the a4paper lines.
-%
-% As you can see, the margin widths and section title widths can be
-% easily adjusted.
-%
-% ALSO: Notice that the includefoot option can be commented OUT in order
-% to put the PAGE NUMBER *IN* the bottom margin. This will make the
-% effective text area larger.
-%
-% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
-% see the note about the +LP and -LP lines below. Comment out the +LP
-% and uncomment the -LP.
-%
-% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
-% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
-% below.
-%
 
-%% Use these lines for letter-sized paper
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
@@ -130,32 +79,7 @@
             linkcolor=darkblue,urlcolor=darkblue,
             anchorcolor=darkblue,citecolor=darkblue}
 
-%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% The title (name) with a horizontal rule under it
-% (optional argument typesets an object right-justified across from name
-%  as well)
-%
-% Usage: \makeheading{name}
-%        OR
-%        \makeheading[right_object]{name}
-%
-% Place at top of document. It should be the first thing.
-% If ``right_object'' is provided in the square-braced optional
-% argument, it will be right justified on the same line as ``name'' at
-% the top of the CV. For example:
-%
-%       \makeheading[\emph{Curriculum vitae}]{Your Name}
-%
-% will put an emphasized ``Curriculum vitae'' at the top of the document
-% as a title. Likewise, a picture could be included:
-%
-%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
-%
-% the picture will be flush right across from the name.
 \newcommand{\makeheading}[2][]%
         {\hspace*{-\marginparsep minus \marginparwidth}%
          \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
@@ -443,10 +367,13 @@ University of New South Wales, Australia
 \item {\bf Le-Quang, H.}. ``Pre-migration language skills and labor market success of immigrants in Germany"    
 \item Anger, S., and {\bf Le-Quang, H.} ``The state dependence of Overeducation - Evidence from immigrants in Germany''    
 \item {\bf Le-Quang, H.} and Tran-Nam, B. ``Qualification mismatch and impacts on earnings - A study on Vietnam's labor market''
+\item Leber, U., and {\bf Le-Quang, H.} ``Job training participation - the catching up of second-generation immigrants in Germany''
 \end{bibsection}
 
 \section{Conferences}
 \begin{innerlist}
+\item 25 \textsuperscript{th} SOEP User Conference, \hfill Jul 2018 \\Berlin, Germany
+\item 3 \textsuperscript{rd} Connect@IPSDS, \hfill Jun 2018 \\Mannheim, Germany
 \item VIII Workshop on Economics of Education, \hfill Sep 2017 \\Barcelona, Spain 
 \item The Society for the Advancement of Socio-Economics, \hfill Jun 2017 \\Lyon, France
 \item International Workshop on Applied Economics of Education, \hfill Jun 2017 \\Catanzaro, Italy
@@ -458,26 +385,4 @@ University of New South Wales, Australia
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------%
-% The following is copyright and licensing information for
-% redistribution of this LaTeX source code; it also includes a liability
-% statement. If this source code is not being redistributed to others,
-% it may be omitted. It has no effect on the function of the above code.
-%----------------------------------------------------------------------%
-% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
-%
-% Unless otherwise expressly stated, this work is licensed under the
-% Creative Commons Attribution-Noncommercial 3.0 United States License. To
-% view a copy of this license, visit
-% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
-% Creative Commons, 171 Second Street, Suite 300, San Francisco,
-% California, 94105, USA.
-%
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-%----------------------------------------------------------------------%
+
